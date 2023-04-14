@@ -1,4 +1,157 @@
+body{
+  background-color: grey;
+}
+
+.searchbar > div{
+  background-color: rgb(155, 155, 155);
+  border-radius: 10px;
+}
+.searchbar{
+  width: 60%;
+}
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 80%;
-  margin:20px auto;
+  margin:30px auto;
+}
+
+.recharts-tooltip-wrapper{
+  border: 1px solid rgb(255, 255, 255);
+  width: 150px;
+  background-color: rgb(139, 139, 139);
+  border-radius: 5px;
+}
+
+.custom-tooltip{
+  height: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.chart{
+  background-color: rgb(24, 24, 24);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.53);
+  padding: 20px 0px 20px 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 900px;
+}
+
+.recharts-surface{
+    max-width: 800px!important;
+    width: 800px!important;
+    min-width: 200px!important;
+    height: 400px;
+    margin: auto;
+}
+text{
+  fill:rgb(255,255,255);
+}
+
+h2{
+  margin: 30px;
+  font-size: 30px;
+}
+.weatherdisplay{
+  background-color: rgb(24, 24, 24);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.53);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 270px;
+}
+.searchbar > div > div > div{
+  color: black!important;
+}
+
+.weatherdisplay > .header{
+  color: white!important;
+  display: flex;
+  margin-bottom: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+.city , .temp{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 10px;
+}
+.bottom > div > p{
+  margin: 0px 0px 5px 0px;
+}
+.feelslike{
+  margin-bottom: 20px!important;
+}
+.weather-desc{
+  margin: 0px 10px;
+  font-size: 24px;
+}
+.bottom{
+  display: flex;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+}
+.bottom > div{
+  margin: 0px 10px;
+
+}
+.weather-icon{
+  height: 100px;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  padding: 10px;
+}
+
+table tbody {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+table tr {
+  min-width: 270px;
+  margin-bottom: 20px;
+  background-color: rgb(24, 24, 24);
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+}
+
+.table-icon > img {
+  height: 50px;
+}
+.main-header{
+  height: 100px;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+h1{
+  margin: 0;
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
 }

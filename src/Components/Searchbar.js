@@ -28,11 +28,11 @@ const Searchbar = ({onSearchChange}) => {
     return(
         <AsyncPaginate
         placeholder="Város keresése"
-        debounceTimeout={600}
+        debounceTimeout={800}
         value={search}
         onChange={handleOnChange}
         loadOptions={loadOptions}
-        
+        className="searchbar"
         />
     )
 }
